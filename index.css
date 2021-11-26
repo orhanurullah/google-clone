@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+.form{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form > *{
+    margin-top: 10px;
+}
+.search-input{
+    height: 30px;
+    max-width: 500px;
+    min-width: 400px;
+    margin: auto;
+    padding-left: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.footer-area{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.footer-area > article{
+    background-color: aqua;
+    width: 33%;
+    text-align: center;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
